@@ -1,14 +1,14 @@
 import React from "react";
 import "./homepage.scss";
-import  directory from "../components/directory/directoryComponent";
+import  Directory from "../components/directory/directoryComponent";
 
 
 const Home=()=>(
 
   <div className="homepage">
-   < directory/>
+   <Directory></Directory>
   </div>
 
 )
-
+ 
 export default Home
